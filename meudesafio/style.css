@@ -1,0 +1,82 @@
+.body {
+  /* max-width: 70px; */
+}
+.page-header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-header {
+  height: 20px;
+}
+.menu-item {
+  text-decoration: none;
+  color: white;
+}
+.carousel-welcome {
+  display: flex;
+  background-color: rgb(218, 78, 101);
+  justify-content: space-around;
+}
+h1,
+h2,
+h3,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer,
+.services-wrapper,
+.who-am-i-wrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-works-wrapper,
+.contact-wrapper {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-img {
+  border-radius: 180px;
+  max-width: 170px;
+}
+.services {
+  display: flex;
+  max-width: 85%;
+  border-top: solid white;
+  border-width: 1px;
+  padding: 50px;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text {
+  font-size: small;
+}
+.border {
+  display: flex;
+  max-width: 85%;
+  border-top: solid white;
+  border-width: 1px;
+  padding: 50px;
+}
+
+/* texts color */
+.white {
+  color: white;
+}
+.orange {
+  color: orange;
+}
+.black {
+  color: black;
+}
+.pink {
+  color: rgb(218, 78, 101);
+}
