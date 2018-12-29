@@ -27,6 +27,12 @@ body {
 .left-welcome {
   max-width: 45%;
 }
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
+}
 h1,
 h2,
 h3,
