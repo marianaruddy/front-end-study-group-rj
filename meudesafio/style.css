@@ -1,10 +1,14 @@
-.body {
-  /* max-width: 70px; */
+body {
+  max-width: 950px;
+  margin: auto;
 }
 .page-header {
   background-color: black;
   display: flex;
   justify-content: space-between;
+  padding: 0px 55px;
+  height: 45px;
+  align-items: center;
 }
 .logo-header {
   height: 20px;
@@ -16,7 +20,12 @@
 .carousel-welcome {
   display: flex;
   background-color: rgb(218, 78, 101);
-  justify-content: space-around;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+}
+.left-welcome {
+  max-width: 45%;
 }
 h1,
 h2,
