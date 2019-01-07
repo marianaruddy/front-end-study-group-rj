@@ -19,10 +19,22 @@ body {
 }
 .carousel-welcome {
   display: flex;
-  background-image:  url(../images/Slider.png);
   justify-content: space-evenly;
   height: 300px;
   align-items: center;
+  position: relative;
+  background-color: rgba(245, 73, 101, 0.9);
+}
+.carousel-welcome:after {
+  content: "";
+    opacity: 0.5;
+    background-image: url(../images/Slider.png);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
 }
 .left-welcome {
   max-width: 45%;
