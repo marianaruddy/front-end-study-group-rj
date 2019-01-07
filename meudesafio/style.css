@@ -54,6 +54,21 @@ span {
 .subtitle{
   padding-bottom: 20px;
 }
+.works-thumbnail {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+.thumbnail {
+}
+.works-menu{
+  display: flex;
+}
+.works-menu-item{
+  text-decoration: none;
+  color: black;
+  border-color: black;
+}
 footer,
 .services-wrapper,
 .who-am-i-wrapper {
