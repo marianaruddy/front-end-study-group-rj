@@ -88,6 +88,20 @@ footer,
 }
 .fill{
   background-color: purple;
+  width: 75%;
+}
+.skill{
+  height: 20px;
+  white-space: nowrap;
+  position: relative;
+  background-color: white;
+  min-width: 105px;
+}
+.js{
+  width: 85%;
+}
+.htmlcss{
+  width: 80%;
 }
 .my-works-wrapper,
 .contact-wrapper {
