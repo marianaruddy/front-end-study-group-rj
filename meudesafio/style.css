@@ -73,25 +73,36 @@ footer,
   align-items: center;
 }
 /* who am i */
+.habilities-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
 .empty{
   background-color: white;
 }
 .fill{
   background-color: purple;
-  width: 75%;
 }
 .skill{
   height: 20px;
   white-space: nowrap;
   position: relative;
   background-color: white;
-  min-width: 105px;
+  min-width: 1000px;
 }
 .js{
   width: 85%;
 }
 .htmlcss{
   width: 80%;
+}
+.jquery{
+  width: 50%;
+}
+.wordpress{
+  width: 50%;
 }
 
 /* my works */
