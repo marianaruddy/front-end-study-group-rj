@@ -1,6 +1,7 @@
 body {
   margin: auto;
 }
+/* toolbar */
 .page-header {
   background-color: black;
   display: flex;
@@ -16,6 +17,7 @@ body {
   text-decoration: none;
   color: white;
 }
+/* welcome */
 .carousel-welcome {
   display: flex;
   justify-content: space-evenly;
@@ -38,21 +40,7 @@ body {
 .left-welcome {
   max-width: 45%;
 }
-h1 {
-  font-size: xx-large;
-}
-h2 {
-  font-size: x-large;
-}
-h1,
-h2,
-h3,
-span {
-  font-family: Arial, Helvetica, sans-serif;
-}
-.subtitle{
-  padding-bottom: 1.2%;
-}
+/* my works */
 .works-thumbnail {
   display: flex;
 }
@@ -75,6 +63,7 @@ span {
   color: black;
   border-color: black;
 }
+/* footer */
 footer,
 .services-wrapper,
 .who-am-i-wrapper {
@@ -83,6 +72,7 @@ footer,
   flex-direction: column;
   align-items: center;
 }
+/* who am i */
 .empty{
   background-color: white;
 }
@@ -103,6 +93,8 @@ footer,
 .htmlcss{
   width: 80%;
 }
+
+/* my works */
 .my-works-wrapper,
 .contact-wrapper {
   background-color: orange;
@@ -127,17 +119,8 @@ footer,
   align-items: center;
   flex-direction: column;
 }
-.text {
-  font-size: small;
-  text-align: center;
-}
-.border {
-  display: flex;
-  max-width: 85%;
-  border-top: solid white;
-  border-width: 1px;
-  padding: 50px;
-}
+
+/* contact */
 .social-media {
   display: flex;
   justify-content: center;
@@ -179,4 +162,32 @@ footer,
 }
 .yellow {
   color: yellow;
+}
+
+/* tags */
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
+}
+h1,
+h2,
+h3,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle{
+  padding-bottom: 1.2%;
+}
+.text {
+  font-size: small;
+  text-align: center;
+}
+.border {
+  display: flex;
+  max-width: 85%;
+  border-top: solid white;
+  border-width: 1px;
+  padding: 50px;
 }
