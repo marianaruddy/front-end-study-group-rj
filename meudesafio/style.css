@@ -1,6 +1,11 @@
 body {
   margin: auto;
 }
+
+.content-wrapper {
+  padding: 0 32px;
+}
+
 /* toolbar */
 .page-header {
   background-color: black;
@@ -46,14 +51,15 @@ body {
 }
 .thumbnail-description{    
   background-color: black;
-  max-width: 50%;
+  width: 100%;
 }
 .thumbnail {
   display: flex;
   flex-direction: column;
+  margin: 0 16px;
 }
-.thumnail-photo{
-  max-width: 50%
+.thumbnail-photo{
+  width: 100%
 }
 .works-menu{
   display: flex;
