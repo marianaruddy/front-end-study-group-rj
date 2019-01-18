@@ -48,10 +48,14 @@ body {
 /* my works */
 .works-thumbnail {
   display: flex;
+  margin: 5px 2px 40px;
 }
-.thumbnail-description{    
+.thumbnail-description{   
+  align-items: center;
   background-color: black;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .thumbnail {
   display: flex;
@@ -63,11 +67,19 @@ body {
 }
 .works-menu{
   display: flex;
+  border-top: solid black;
+  border-width: 1px;
+  width: 100%;
 }
 .works-menu-item{
   text-decoration: none;
   color: black;
-  border-color: black;
+  border: 1px solid black;
+  padding: 4px 30px;
+  margin: 14px 0;
+}
+.works-menu-item:not(:last-child){
+  margin-right: 4px;
 }
 /* footer */
 footer,
@@ -140,7 +152,7 @@ footer,
 /* contact */
 .social-media {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   width: 50%;
   border-top: solid black;
   border-width: 1px;
@@ -193,6 +205,9 @@ h2,
 h3,
 span {
   font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
 }
 .subtitle{
   padding-bottom: 1.2%;
