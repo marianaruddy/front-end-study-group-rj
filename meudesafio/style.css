@@ -21,6 +21,15 @@ body {
 .menu-item {
   text-decoration: none;
   color: white;
+  padding: 6px 12px;
+  border: solid black 1px;
+}
+.menu-item :hover {
+  text-decoration: none;
+  color: white;
+  padding: 6px 12px;
+  border: solid yellow 1px;
+  /* pq nao ta funcionando direito? */
 }
 /* welcome */
 .carousel-welcome {
@@ -33,52 +42,60 @@ body {
 }
 .carousel-welcome:after {
   content: "";
-    opacity: 0.5;
-    background-image: url(../images/Slider.png);
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;  
+  opacity: 0.5;
+  background-image: url(../images/Slider.png);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 .left-welcome {
   max-width: 45%;
+}
+.logo {
+  height: 200px;
 }
 /* my works */
 .works-thumbnail {
   display: flex;
   margin: 5px 2px 40px;
 }
-.thumbnail-description{   
+.thumbnail-description {
   align-items: center;
   background-color: black;
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 12px 0;
 }
 .thumbnail {
   display: flex;
   flex-direction: column;
   margin: 0 16px;
 }
-.thumbnail-photo{
-  width: 100%
+.thumbnail-photo {
+  width: 100%;
 }
-.works-menu{
+.works-menu {
   display: flex;
   border-top: solid black;
   border-width: 1px;
   width: 100%;
 }
-.works-menu-item{
+.works-menu-item {
   text-decoration: none;
   color: black;
   border: 1px solid black;
   padding: 4px 30px;
   margin: 14px 0;
 }
-.works-menu-item:not(:last-child){
+.works-menu-item:hover {
+  background-color: black;
+  color: white;
+}
+.works-menu-item:not(:last-child) {
   margin-right: 4px;
 }
 /* footer */
@@ -97,30 +114,33 @@ footer,
   align-items: flex-start;
   width: 100%;
 }
-.empty{
+.empty {
   background-color: white;
 }
-.fill{
+.fill {
   background-color: purple;
+  border: solid white 0.25px;
 }
-.skill{
-  height: 20px;
+.skill {
+  height: 24px;
   white-space: nowrap;
   position: relative;
   background-color: white;
   min-width: 1000px;
+  margin: 12px;
+  display: flex;
 }
-.js{
-  width: 85%;
+.js {
+  width: 75%;
 }
-.htmlcss{
-  width: 80%;
+.htmlcss {
+  width: 90%;
 }
-.jquery{
+.jquery {
   width: 50%;
 }
-.wordpress{
-  width: 50%;
+.wordpress {
+  width: 55%;
 }
 
 /* my works */
@@ -152,7 +172,7 @@ footer,
 /* contact */
 .social-media {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 50%;
   border-top: solid black;
   border-width: 1px;
@@ -206,10 +226,10 @@ h3,
 span {
   font-family: Arial, Helvetica, sans-serif;
 }
-a{
+a {
   text-decoration: none;
 }
-.subtitle{
+.subtitle {
   padding-bottom: 1.2%;
 }
 .text {
