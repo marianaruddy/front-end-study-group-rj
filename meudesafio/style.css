@@ -22,9 +22,9 @@ body {
   text-decoration: none;
   color: white;
   padding: 6px 12px;
-  border: solid black 1px;
+  border: solid transparent 1px;
 }
-.menu-item :hover {
+.menu-item:hover {
   text-decoration: none;
   color: white;
   padding: 6px 12px;
