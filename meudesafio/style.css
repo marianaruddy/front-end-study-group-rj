@@ -157,7 +157,7 @@ footer,
 }
 .services {
   display: flex;
-  max-width: 85%;
+  /* width: 100%; */
   border-top: solid white;
   border-width: 1px;
   padding: 50px;
