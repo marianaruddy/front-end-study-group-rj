@@ -73,7 +73,12 @@ body {
 .thumbnail {
   display: flex;
   flex-direction: column;
-  margin: 0 16px;
+  margin: 0 32px 0 0;
+}
+.thumbnail:last-child  {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 .thumbnail-photo {
   width: 100%;
@@ -178,6 +183,31 @@ footer,
   border-width: 1px;
   padding: 25px;
 }
+.social-media.orange{
+  max-width: 100%;
+
+}
+.circle-icon{
+  background: black;
+  border-radius: 100%;
+  font-size: 11px;
+  padding: 1.5px;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .fa-facebook-f
+.fa-twitter
+.fa-linkedin-in{
+  color:red;
+} */
+/* <i class="fab fa-facebook-f yellow"></i>
+<i class="fab fa-twitter yellow"></i>
+<i class="fab fa-linkedin-in yellow"></i>
+<i class="fab fa-pinterest"></i>
+<i class="fab fa-google-plus"></i> */
 .email {
   display: flex;
   justify-content: center;
@@ -211,6 +241,9 @@ footer,
 }
 .yellow {
   color: yellow;
+}
+.orange-back{
+  background-color: orange;
 }
 
 /* tags */
