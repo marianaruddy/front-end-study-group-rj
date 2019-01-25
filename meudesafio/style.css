@@ -162,16 +162,17 @@ footer,
 }
 .services {
   display: flex;
-  /* width: 100%; */
   border-top: solid white;
   border-width: 1px;
   padding: 50px;
+  justify-content: space-between;
 }
 .service {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 25%;
 }
 
 /* contact */
@@ -183,8 +184,8 @@ footer,
   border-width: 1px;
   padding: 25px;
 }
-.social-media.orange{
-  max-width: 100%;
+.social-media.yellow{
+  max-width: 150px;
 
 }
 .circle-icon{
