@@ -29,7 +29,6 @@ body {
   color: white;
   padding: 6px 12px;
   border: solid yellow 1px;
-  /* pq nao ta funcionando direito? */
 }
 /* welcome */
 .carousel-welcome {
@@ -199,16 +198,6 @@ footer,
   justify-content: center;
   align-items: center;
 }
-/* .fa-facebook-f
-.fa-twitter
-.fa-linkedin-in{
-  color:red;
-} */
-/* <i class="fab fa-facebook-f yellow"></i>
-<i class="fab fa-twitter yellow"></i>
-<i class="fab fa-linkedin-in yellow"></i>
-<i class="fab fa-pinterest"></i>
-<i class="fab fa-google-plus"></i> */
 .email {
   display: flex;
   justify-content: center;
