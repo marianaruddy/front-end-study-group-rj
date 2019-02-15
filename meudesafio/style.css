@@ -1,4 +1,5 @@
-body {
+html, body {
+  width: 100%;
   margin: auto;
 }
 
@@ -59,7 +60,15 @@ body {
 /* my works */
 .works-thumbnail {
   display: flex;
-  margin: 5px 2px 40px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 320px) {
+  .works-thumbnail {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 2px 40px;
+  }
 }
 .thumbnail-description {
   align-items: center;
@@ -130,7 +139,7 @@ footer,
   white-space: nowrap;
   position: relative;
   background-color: white;
-  min-width: 1000px;
+  min-width: 100%;
   margin: 12px;
   display: flex;
 }
