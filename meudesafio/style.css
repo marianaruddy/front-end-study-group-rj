@@ -1,0 +1,268 @@
+body {
+  margin: auto;
+}
+
+.content-wrapper {
+  padding: 0 32px;
+}
+
+/* toolbar */
+.page-header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 55px;
+  height: 45px;
+  align-items: center;
+}
+.logo-header {
+  height: 20px;
+}
+.menu-item {
+  text-decoration: none;
+  color: white;
+  padding: 6px 12px;
+  border: solid transparent 1px;
+}
+.menu-item:hover {
+  text-decoration: none;
+  color: white;
+  padding: 6px 12px;
+  border: solid yellow 1px;
+}
+/* welcome */
+.carousel-welcome {
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+  position: relative;
+  background-color: rgba(245, 73, 101, 0.9);
+}
+.carousel-welcome:after {
+  content: "";
+  opacity: 0.5;
+  background-image: url(../images/Slider.png);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.left-welcome {
+  max-width: 45%;
+}
+.logo {
+  height: 200px;
+}
+/* my works */
+.works-thumbnail {
+  display: flex;
+  margin: 5px 2px 40px;
+}
+.thumbnail-description {
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+}
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  margin: 0 32px 0 0;
+}
+.thumbnail:last-child  {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.thumbnail-photo {
+  width: 100%;
+}
+.works-menu {
+  display: flex;
+  border-top: solid black;
+  border-width: 1px;
+  width: 100%;
+}
+.works-menu-item {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 4px 30px;
+  margin: 14px 0;
+}
+.works-menu-item:hover {
+  background-color: black;
+  color: white;
+}
+.works-menu-item:not(:last-child) {
+  margin-right: 4px;
+}
+/* footer */
+footer,
+.services-wrapper,
+.who-am-i-wrapper {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* who am i */
+.habilities-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.empty {
+  background-color: white;
+}
+.fill {
+  background-color: purple;
+  border: solid white 0.25px;
+}
+.skill {
+  height: 24px;
+  white-space: nowrap;
+  position: relative;
+  background-color: white;
+  min-width: 1000px;
+  margin: 12px;
+  display: flex;
+}
+.js {
+  width: 75%;
+}
+.htmlcss {
+  width: 90%;
+}
+.jquery {
+  width: 50%;
+}
+.wordpress {
+  width: 55%;
+}
+
+/* my works */
+.my-works-wrapper,
+.contact-wrapper {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-img {
+  border-radius: 180px;
+  max-width: 170px;
+}
+.services {
+  display: flex;
+  border-top: solid white;
+  border-width: 1px;
+  padding: 50px;
+  justify-content: space-between;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 25%;
+}
+
+/* contact */
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  border-top: solid black;
+  border-width: 1px;
+  padding: 25px;
+}
+.social-media.yellow{
+  max-width: 150px;
+
+}
+.circle-icon{
+  background: black;
+  border-radius: 100%;
+  font-size: 11px;
+  padding: 1.5px;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  border: solid white;
+  border-width: 1px;
+  padding: 8px 90px;
+  margin: 5px;
+}
+.contact-data {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  border-top: solid black;
+  border-width: 1px;
+  padding: 25px;
+}
+
+/* texts color */
+.white {
+  color: white;
+}
+.orange {
+  color: orange;
+}
+.black {
+  color: black;
+}
+.pink {
+  color: rgb(218, 78, 101);
+}
+.yellow {
+  color: yellow;
+}
+.orange-back{
+  background-color: orange;
+}
+
+/* tags */
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
+}
+h1,
+h2,
+h3,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.subtitle {
+  padding-bottom: 1.2%;
+}
+.text {
+  font-size: small;
+  text-align: center;
+}
+.border {
+  display: flex;
+  max-width: 85%;
+  border-top: solid white;
+  border-width: 1px;
+  padding: 50px;
+}

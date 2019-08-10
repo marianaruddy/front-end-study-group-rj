@@ -3,19 +3,21 @@
 
 <head>
   <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <title>WoMakersCode</title>
 </head>
 
 <body>
   <section class="body-wrapper">
     <header class="page-header">
-      <a href=""><img src="../images/logo.png" alt="logo"></a>
+      <a href=""><img class="logo-header" src="../images/logo.png" alt="logo" /></a>
       <nav class="menu-itens">
-        <a class="home-link" href=""><span>Home</span></a>
-        <a class="services-link" href=""><span>Serviços</span></a>
-        <a class="who-am-i-link" href=""><span>Sobre mim</span></a>
-        <a class="my-works-link" href=""><span>Meus trabalhos</span></a>
-        <a class="contact-link" href=""><span>Contato</span></a>
+        <a class="menu-item" href=""><span>Home</span></a>
+        <a class="menu-item" href=""><span>Serviços</span></a>
+        <a class="menu-item" href=""><span>Sobre mim</span></a>
+        <a class="menu-item" href=""><span>Meus trabalhos</span></a>
+        <a class="menu-item" href=""><span>Contato</span></a>
       </nav>
     </header>
     <div class="transition"></div>
@@ -25,137 +27,153 @@
           <div class="left-welcome">
             <h1 class="welcome-title">Bem vind@</h1>
             <h2 class="welcome-subtitle">Nam ac fermentum</h2>
-            <span class="text white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae
-              ullamcorper est. Vestibulum congue dolor et ullamcorper feugiat. Nam</span>
+            <span class="text white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus vitae ullamcorper est. Vestibulum congue dolor et
+              ullamcorper feugiat. Nam</span>
           </div>
           <div class="right-welcome">
-            <img src="../images/icon.ico" alt="logo">
+            <img src="../images/slider01.png" alt="logo" class="logo"/>
           </div>
         </div>
-        <div class="carousel-hide1" style="display: none">segunda pagina do carrossel</div>
-        <div class="carousel-hide2" style="display: none">terceira pagina do carrossel</div>
+        <div class="carousel-hide1" style="display: none">
+          segunda pagina do carrossel
+        </div>
+        <div class="carousel-hide2" style="display: none">
+          terceira pagina do carrossel
+        </div>
       </div>
     </section>
-    <section class="services-wrapper">
-      <h1 class="section-title">Serviços</h1>
-      <span class="text orange">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae ullamcorper
-        est.</span>
+    <section class="content-wrapper services-wrapper">
+      <h1 class="section-title pink">Serviços</h1>
+      <span class="subtitle text orange">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        vitae ullamcorper est.</span>
       <div class="services">
-        <div class="service1">
-          <img src="../images/Service1.png" alt="website">
-          <h2 class="service-title">Website</h2>
-          <span class="text white">In aliquet vitae dui vitae efficitur. Donec non convallis enim. Proin
-            pellentesque odio ac lorem pulvinar, sit amet accumsan lacus laoreet. </span>
+        <div class="service">
+          <img class="service-img" src="../images/Service1.png" alt="website" />
+          <h2 class="service-title orange">Website</h2>
+          <span class="text white">In aliquet vitae dui vitae efficitur. Donec non convallis enim.
+          </span>
         </div>
-        <div class="service2">
-          <img src="../images/Service2.png" alt="templates">
-          <h2 class="service-title">Templates</h2>
-          <span class="text white">Aenean posuere magna vitae libero malesuada, dictum interdum augue congue. Proin
-            convallis convallis arcu a tempor. </span>
+        <div class="service">
+          <img class="service-img" src="../images/Service2.png" alt="templates" />
+          <h2 class="service-title orange">Templates</h2>
+          <span class="text white">Aenean posuere magna vitae libero malesuada, dictum congue.
+          </span>
         </div>
-        <div class="service3">
-          <img src="../images/Service3.png" alt="temas-wordpress">
-          <h2 class="service-title">Temas Wordpress</h2>
-          <span class="text white">In hac habitasse platea dictumst. Morbi nunc neque, vestibulum ut laoreet in,
-            imperdiet rhoncus justo. Nam vel ipsum ut odio rhoncus molestie. </span>
+        <div class="service">
+          <img class="service-img" src="../images/Service3.png" alt="temas-wordpress" />
+          <h2 class="service-title orange">Temas Wordpress</h2>
+          <span class="text white">In hac habitasse platea dictumst. Morbi nunc neque, vestibulum
+            utlaoreet in.
+          </span>
         </div>
       </div>
     </section>
     <div class="transition"></div>
-    <section class="my-works-wrapper">
-      <h1 class="section-title">Meus Trabalhos</h1>
-      <span class="text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae ullamcorper
-        est.</span>
+    <section class="content-wrapper my-works-wrapper">
+      <h1 class="section-title pink">Meus Trabalhos</h1>
+      <span class="subtitle text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        vitae ullamcorper est.</span>
       <nav class="works-menu">
-        <span class="item-all"> <a href="">Tudo</a> </span>
-        <span class="item-website"> <a href="">Website</a> </span>
-        <span class="item-templates"> <a href="">Templates</a> </span>
-        <span class="item-thema"> <a href="">Tema</a> </span>
+        <a href=""></a><span class="works-menu-item"> Tudo </span></a>
+        <a href=""></a><span class="works-menu-item"> Website </span></a>
+        <a href=""></a><span class="works-menu-item"> Templates </span></a>
+        <a href=""></a><span class="works-menu-item"> Tema </span></a>
       </nav>
       <div class="works-thumbnail">
-        <div class="thumbnail-left">
-          <img src="../images/Portfolio01.png" alt="">
+        <div class="thumbnail">
+          <img class="thumbnail-photo" src="../images/Portfolio01.png" alt="" />
           <div class="thumbnail-description">
-            <div class="thumbnail-title">Thumbnail label</div>
-            <div class="thumbnail-text">Thumbnail caption...</div>
+            <div class="thumbnail-title yellow">Thumbnail label</div>
+            <div class="thumbnail-text white">Thumbnail caption...</div>
           </div>
         </div>
-      </div>
-      <div class="works-thumbnail">
-        <div class="thumbnail-center">
-          <img src="../images/Portfolio02.png" alt="">
+        <div class="thumbnail">
+          <img class="thumbnail-photo" src="../images/Portfolio02.png" alt="" />
           <div class="thumbnail-description">
-            <div class="thumbnail-title">Thumbnail label</div>
-            <div class="thumbnail-text">Thumbnail caption...</div>
+            <div class="thumbnail-title yellow">Thumbnail label</div>
+            <div class="thumbnail-text white">Thumbnail caption...</div>
           </div>
         </div>
-      </div>
-      <div class="works-thumbnail">
-        <div class="thumbnail-right">
-          <img src="../images/Portfolio03.png" alt="">
+        <div class="thumbnail">
+          <img class="thumbnail-photo" src="../images/Portfolio03.png" alt="" />
           <div class="thumbnail-description">
-            <div class="thumbnail-title">Thumbnail label</div>
-            <div class="thumbnail-text">Thumbnail caption...</div>
+            <div class="thumbnail-title yellow">Thumbnail label</div>
+            <div class="thumbnail-text white">Thumbnail caption...</div>
           </div>
         </div>
       </div>
     </section>
     <div class="transition"></div>
-    <section class="who-am-i-wrapper">
-      <h1 class="section-title">Quem sou eu</h1>
-      <span class="text orange">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae ullamcorper
-        est.</span>
-      <img src="../images/photo.png" alt="foto mulher">
-      <span class="photo-subtitle">Joana D'arc</span>
-      <div class="social-media">
-        <i class="facebook">F</i>
-        <i class="Twitter">T</i>
-        <i class="LinkedIn">LI</i>
+    <section class="content-wrapper who-am-i-wrapper">
+      <h1 class="section-title pink">Quem sou eu</h1>
+      <span class="subtitle text orange">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        vitae ullamcorper est.</span>
+      <img src="../images/photo.png" alt="foto mulher" />
+      <span class="photo-subtitle orange">Joana D'arc</span>
+      <div class="social-media yellow">
+          <div class=" circle-icon black">
+              <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class=" circle-icon black">
+              <i class="fab fa-linkedin-in"></i>
+          </div>
+          <div class=" circle-icon black">
+              <i class="fab fa-twitter"></i>
+          </div>
       </div>
       <span class="about-me-text"></span>
-      <h2 class="about-me-title">Sobre mim</h2>
+      <h2 class="about-me-title orange">Sobre mim</h2>
       <div class="text white">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae
-        ullamcorper est. Vestibulum congue dolor et ullamcorper feugiat. In hac habitasse platea dictumst. Morbi nunc
-        neque, vestibulum ut laoreet in,
-        imperdiet rhoncus justo. Nam vel ipsum ut odio rhoncus molestie. Aenean posuere magna vitae libero malesuada,
-        dictum interdum augue congue. Proin
-        convallis convallis arcu a tempor.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        vitae ullamcorper est. Vestibulum congue dolor et ullamcorper feugiat.
+        In hac habitasse platea dictumst. Morbi nunc neque, vestibulum ut
+        laoreet in, imperdiet rhoncus justo. Nam vel ipsum ut odio rhoncus
+        molestie. Aenean posuere magna vitae libero malesuada, dictum interdum
+        augue congue. Proin convallis convallis arcu a tempor.
       </div>
-      <h2 class="skills">Habilidades</h2>
-      <div class="skill1">
-        <div class="empty"></div>
-        <div class="fill">JavaScript</div>
-      </div>
-      <div class="skill2">
-        <div class="empty"></div>
-        <div class="fill">Hmtl & Css</div>
-      </div>
-      <div class="skill1">
-        <div class="empty"></div>
-        <div class="fill">jQuery</div>
-      </div>
-      <div class="skill3">
-        <div class="empty"></div>
-        <div class="fill">Wordpress</div>
+      <div class="habilities-wrapper">
+        <h2 class="skills orange">Habilidades</h2>
+        <div class="skill">
+          <div class="empty"></div><span class="white"></span>
+          <div class="fill js"><span class="white">JavaScript</span></div>
+        </div>
+        <div class="skill">
+          <div class="empty"></div>
+          <div class="fill htmlcss"><span class="white">Hmtl & Css</span></div>
+        </div>
+        <div class="skill">
+          <div class="empty"></div>
+          <div class="fill jquery"><span class="white">jQuery</span></div>
+        </div>
+        <div class="skill">
+          <div class="empty"></div>
+          <div class="fill wordpress"><span class="white">Wordpress</span></div>
+        </div>
+
       </div>
     </section>
-    <sectsion class="contact-wrapper">
-      <h1 class="section-title">Contato</h1>
-      <span class="text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae ullamcorper
-        est.</span>
-      <span class="email">meuemail@mail.com</span>
-      <span class="telefone">+55 21 997115009</span>
+    <section class="content-wrapper contact-wrapper">
+      <h1 class="section-title pink">Contato</h1>
+      <span class="subtitle text black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        vitae ullamcorper est.</span>
+      <div class="contact-data">
+        <span class="email">meuemail@mail.com</span>
+        <span class="telefone white">+55 21 997115009</span>
+      </div>
       <h3 class="midia-title">Midias</h3>
       <div class="social-media">
-        <i class="facebook">F</i>
-        <i class="Twitter">T</i>
-        <i class="LinkedIn">LI</i>
-        <i class="Pinterest">P</i>
-        <i class="Ball">O</i>
-        <i class="Google">G</i>
+        <div class=" circle-icon orange">
+            <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class=" circle-icon orange">
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div class=" circle-icon orange">
+            <i class="fab fa-twitter"></i>
+        </div>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-google-plus"></i>
       </div>
-  </section>
-
-  </div>
-  <footer>Woman + Tech = < /strong> </footer> </section>
+    </section>
+    <footer><span class="white">Woman + Tech = < /strong> </span> </footer> </section> </body> </html>
